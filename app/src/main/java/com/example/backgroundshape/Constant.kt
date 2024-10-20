@@ -1,11 +1,11 @@
 package com.example.backgroundshape
 
 object Constant {
-    val SELECT_DEFAULT = 0
-    val SELECT_1 = 1
-    val SELECT_2 = 2
-    val SELECT_3 = 3
-    val SELECT_4 = 4
+    const val SELECT_DEFAULT = 0
+    const val SELECT_1 = 1
+    const val SELECT_2 = 2
+    const val SELECT_3 = 3
+    const val SELECT_4 = 4
     val backgoundShape_default = floatArrayOf(
         50f,50f,// top-left
         50f,50f,//top-right
@@ -43,5 +43,5 @@ object Constant {
         backgoundShape_3,
         backgoundShape_4
     )
-    val MAX_SHAPE = 5
+    const val MAX_SHAPE = 5
 }
